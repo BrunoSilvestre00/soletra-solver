@@ -1,13 +1,14 @@
 class SoletraConfig(object):
-    WORDS_PT_FILE = "files/words.pt_br.txt"
-    ANAGRAMS_FILE = "file/anagrams.out"
-    SOLVED_FILE = "files/solved.out"
-    SOLETRA_FILE = "files/soletra.out"
+    WORDS_PT_FILE   = "files/words.pt_br.txt"
+    ANAGRAMS_FILE   = "file/anagrams.out"
+    SOLVED_FILE     = "files/solved.out"
+    SOLETRA_FILE    = "files/soletra.out"
     
-    MIN_SIZE = 5
-    MAX_SIZE = 8
-    LETTERS = "CUDOPIM"
+    MIN_SIZE    = 5
+    MAX_SIZE    = 8
+    LETTERS     = "CUDOPIM"
     MAIN_LETTER = "O"
+
 
 def soletra():
     from soletra.soletra_words import generate_soletra_file
