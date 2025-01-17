@@ -1,8 +1,8 @@
 class SoletraConfig(object):
-    WORDS_PT_FILE = "words.pt_br.txt"
-    ANAGRAMS_FILE = "anagrams.out"
-    SOLVED_FILE = "solved.out"
-    SOLETRA_FILE = "soletra.out"
+    WORDS_PT_FILE = "files/words.pt_br.txt"
+    ANAGRAMS_FILE = "file/anagrams.out"
+    SOLVED_FILE = "files/solved.out"
+    SOLETRA_FILE = "files/soletra.out"
     
     MIN_SIZE = 5
     MAX_SIZE = 8
