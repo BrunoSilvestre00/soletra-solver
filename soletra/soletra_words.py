@@ -24,4 +24,4 @@ def get_soletra_words() -> list:
 def generate_soletra_file():
     with open(SoletraConfig.SOLETRA_FILE, 'w', encoding='utf-8') as file:
         for word in get_soletra_words():
-            file.write(f'{word}\n')
+            file.write(f'{len(word)} - {word}\n')
