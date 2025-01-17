@@ -10,14 +10,14 @@ class SoletraConfig(object):
     MAIN_LETTER = "O"
 
 def soletra():
-    from soletra_words import generate_soletra_file
-    from soletra_anagrams import generate_anagrams_file
+    from soletra.soletra_words import generate_soletra_file
+    from soletra.soletra_anagrams import generate_anagrams_file
     
     generate_soletra_file()
     generate_anagrams_file()
     
 def solve():
-    from soletra_solver import generate_solved_file
+    from soletra.soletra_solver import generate_solved_file
     
     TARGET_SIZE = 6
     TARGET_BEFORE = "A"
