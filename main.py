@@ -1,6 +1,6 @@
 class SoletraConfig(object):
     WORDS_PT_FILE   = "files/words.pt_br.txt"
-    ANAGRAMS_FILE   = "file/anagrams.out"
+    ANAGRAMS_FILE   = "files/anagrams.out"
     SOLVED_FILE     = "files/solved.out"
     SOLETRA_FILE    = "files/soletra.out"
     
@@ -16,7 +16,8 @@ def soletra():
     
     generate_soletra_file()
     generate_anagrams_file()
-    
+
+
 def solve():
     from soletra.soletra_solver import generate_solved_file
     
@@ -30,9 +31,11 @@ def solve():
     generate_solved_file(
         TARGET_SIZE, TARGET_BEFORE, TARGET_AFTER, adicional_check
     )
-    
+
+
 def main():
     soletra()
+
 
 if __name__ == "__main__":
     main()
